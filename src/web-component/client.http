@@ -1,0 +1,14 @@
+
+
+POST http://localhost:8080/booking/api/v1/saveBooking HTTP/1.1
+content-type: application/json
+
+
+  {
+    "bookingId": "B125",
+    "bookingDate": "10/09/2012",
+    "amount": "5487",
+    "user": {
+      "id": 8133
+    }
+  }

@@ -1,0 +1,33 @@
+.random-card-div{
+    padding-left: 7rem;
+    padding-top: 6rem;
+    
+}
+
+.ui.card.random-card{
+    background-color: #E1E1E1;
+    width: 600px;
+}
+.random-digit{
+    font-size: 250px;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+
+.player-card-div{
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+
+.ui.card.player-card{
+    width: 600px;
+}
+
+.ui.card.content.header{
+    color:red;
+}
+
+
+.centered-modal{
+    /* top:150px */
+}
