@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Cricket E-Auction Frontend
 
-In the project directory, you can run:
+This is the frontend service for the Cricket E-Auction platform. It is built with React and consumes a backend service to provide a seamless UI for users to participate in cricket auctions.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Future Scope](#furturescope)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To get started with the Cricket E-Auction frontend, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/bblaal/eAuction_react.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the project directory:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd eAuction_react
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies:**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the application locally, use the following command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This will start the development server and you can access the app in your browser at `http://localhost:3000`.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- User-friendly interface for cricket e-auctions.
+- Real-time updates from the backend service.
+- Responsive design for various devices.
+- Easy navigation and participation in auctions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Scrrenshots of Features
+- Login Page (Login As admin to sell the player, only auctioner has the admin access)
+  ![Screenshot 2024-07-02 at 12 59 47 PM](https://github.com/bblaal/eAuction_react/assets/142652504/f9be1211-7ee2-45ee-99c1-0d335e29328d)
 
-### Code Splitting
+- Franchisee List
+  <img width="1496" alt="Screenshot 2024-07-02 at 9 22 43 PM" src="https://github.com/bblaal/eAuction_react/assets/142652504/46795c41-187d-41fc-8fc4-572c419639ba">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Players List
+  <img width="1496" alt="Screenshot 2024-07-02 at 9 23 28 PM" src="https://github.com/bblaal/eAuction_react/assets/142652504/1f4b721c-96f5-4f79-bf7d-d785615b41f9">
 
-### Analyzing the Bundle Size
+- Bid Center: 
+- A random player ID will be generated. And the details will be populated based on the ID
+  <img width="1496" alt="Screenshot 2024-07-02 at 9 25 09 PM" src="https://github.com/bblaal/eAuction_react/assets/142652504/c5444217-a008-4ecf-991f-44ce79079394">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Selling A player:
+- If clicked on 'Sold' button, a modal will be opened up to trade the player to bid owned franchisee.
+  <img width="1496" alt="Screenshot 2024-07-02 at 9 27 19 PM" src="https://github.com/bblaal/eAuction_react/assets/142652504/25f262b4-b0b6-43ed-8e5e-e0fae2d9b0fc">
 
-### Making a Progressive Web App
+## Future Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Adding more user friendly UI for bidders & auctioners
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
