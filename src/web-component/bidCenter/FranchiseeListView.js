@@ -11,7 +11,7 @@ export default function FranchiseeListView() {
   
   
   const axios = require('axios');
-  const urlString = "http://localhost:8082/franchisee/api/v1/franchisees";
+  const urlString = "http://localhost:8082/franchisee/api/v1/getAllFranchisees";
   const [allFranchisee, setAllFranchisee] = useState([]);
 
   
