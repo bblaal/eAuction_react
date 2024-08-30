@@ -53,7 +53,6 @@ This will start the development server and you can access the app in your browse
 
 - Scrrenshots of Features
 - Login Page (Login As admin to sell the player, only auctioner has the admin access)
-  ![Screenshot 2024-07-02 at 12 59 47 PM](https://github.com/bblaal/eAuction_react/assets/142652504/f9be1211-7ee2-45ee-99c1-0d335e29328d)
 
 - Franchisee List
   <img width="1496" alt="Screenshot 2024-07-02 at 9 22 43 PM" src="https://github.com/bblaal/eAuction_react/assets/142652504/46795c41-187d-41fc-8fc4-572c419639ba">
