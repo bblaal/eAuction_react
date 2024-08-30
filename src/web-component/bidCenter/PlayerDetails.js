@@ -5,8 +5,8 @@ import IMG from '../daniel.jpg'
 import SellPlayer from './SellPlayer'
 
 const PlayerDetails = (props) => {
-console.log('props', props)
-    const {playerName, playerDOB, playerSpeciality, playerLocation} = props.playerDetails;
+console.log('props 1', props)
+    const {playerId, playerName, playerDOB, playerSpeciality, playerLocation} = props.playerDetails;
     const [showComponent, setShowComponent] = useState(false);
 
     const handleClick = () => {
@@ -50,7 +50,7 @@ console.log('props', props)
             </Card.Group>
 
         </div>
-        {showComponent && (<SellPlayer showComponent={showComponent} handleClose={handleClose} playerName={playerName}/>) }
+        {showComponent && (<SellPlayer username={props.username} password={props.password} showComponent={showComponent} handleClose={handleClose} playerName={playerName} playerId={playerId}/>) }
         </>
     )
 }
